@@ -7,14 +7,17 @@
 
 body
 {
-    background-color: rgb(226, 255, 255);
+    background-color: rgb(152, 190, 190);
     font-family: 'Roboto', sans-serif;
 }
 
 
-header
+#container-header
 {
     background-color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 
 #text-logo
@@ -29,3 +32,55 @@ header
     vertical-align: middle;
 }
 
+
+#container-button
+{
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 2px;
+    padding-left: 40px;
+}
+
+.Task
+{
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 16px;
+}
+
+.Task-blue
+{
+    background-color: blue;
+}
+
+.Section
+{
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 16px;
+}
+
+.Section-blue
+{
+    background-color: blue;
+}
+
+#container-second
+{
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 2px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+   
+}
